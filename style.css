@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    margin-left: 3%;
 }
 .mi-logo p{
     font-family: 'Raleway', sans-serif;
@@ -75,16 +76,16 @@ nav{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 32px;
     color: #464646;
     padding-top: 60px;
 }
 .seccion-1 p{
-    padding-top: 20px;
+    padding-top: 18px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     color: #464646;
 }
 .links-container{
@@ -106,8 +107,8 @@ nav{
     position: relative;
     right: 150px;
     top: 30px;
-    width: 370px;
-    height: 370px;
+    width: 320px;
+    height: 350px;
     box-sizing: border-box;
 }
 .perfil-container img{
@@ -130,9 +131,9 @@ nav{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 400px;
-    padding-right: 100px;
-    padding-top: 120px;
+    padding-left: 1%;
+    padding-right: 2%;
+    padding-top: 50px;
 }
 .seccion-sobremi h2{
     font-family: 'Raleway';
@@ -452,4 +453,15 @@ nav{
     .seccion-sobremi p{
         padding-right: 30px;
     }
+
+    .seccion-sobremi h2{
+        
+        color: #0b0b0b;
+    }
+    .seccion-sobremi p{
+        
+        color: #040404;
+        font-size: medium;
+    }
 }
+
